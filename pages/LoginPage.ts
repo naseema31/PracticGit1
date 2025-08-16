@@ -19,6 +19,7 @@ export class LoginPage{
         await this.userName.fill(userName);
         await this.password.fill(password);
         await this.loginButton.click();
+        console.log("hi");
     }
 
 }
